@@ -256,3 +256,143 @@ font-size: 90px;
     transform: scale(1.2);
 }
 
+@media (max-width: 1024px){
+
+  .over h1{
+    font-size: 100px;
+  }
+
+  .over p{
+    font-size: 22px;
+  }
+
+  .nav-right{
+    gap: 20px;
+  }
+
+  .nav-right a{
+    font-size: 16px;
+  }
+
+  .nav-right button{
+    padding: 10px 20px;
+  }
+
+  
+  .page2{
+    padding: 40px;
+  }
+
+  .card{
+    width: 300px;
+  }
+
+  .card p{
+    font-size: 20px;
+  }
+
+
+  .page3{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .page3 img{
+    width: 100%;
+    height: 400px;
+  }
+
+  .right{
+    width: 100%;
+    padding: 50px;
+  }
+
+  .right p{
+    font-size: 20px;
+    line-height: 1.8;
+  }
+  .page4 h2{
+    font-size: 60px;
+  }
+  .inputo input{
+    width: 300px;
+  }
+
+}
+/*  mobile*/
+@media (max-width: 600px){
+
+  
+
+  nav{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-right{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .over h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+  }
+  .over p{
+    font-size: 18px;
+  }
+  .page2{
+    padding: 20px;
+  }
+
+  .page2 h1{
+    font-size: 40px;
+  }
+
+  .card{
+    width: 100%;
+  }
+
+  .card img{
+    height: 220px;
+  }
+
+  .card p{
+    font-size: 18px;
+  }
+  .right{
+    padding: 30px;
+  }
+  .page3 h2{
+    font-size: 40px;
+  }
+  .page3 p{
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .page4{
+    padding: 20px;
+  }
+
+  .page4 h2{
+    font-size: 45px;
+  }
+
+  .page4 p{
+    font-size: 18px;
+  }
+
+  .inputo input{
+    width: 100%;
+  }
+
+  .page4 button{
+    width: 100%;
+  }
+
+  .icons{
+    margin-top: 30px;
+    font-size: 28px;
+  }
+
+}
+
